@@ -18,9 +18,3 @@ preditor_linear_model=regr.fit(data_X, data_Y)
 preditor_Pickle = open('white-wine_quality_predictor', 'wb')
 print("white-wine_quality_predictor")
 p1.dump(preditor_linear_model, preditor_Pickle)
-
-
-
-
-
-
